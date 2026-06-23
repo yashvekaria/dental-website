@@ -19,6 +19,26 @@
   ::selection{background:#15b3a0;color:#fff}
   @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 </style>
+<style>
+  /* ===== Mobile responsiveness (retrofit) ===== */
+  @media (max-width: 920px){
+    [style*="grid-template-columns:repeat(4"],
+    [style*="grid-template-columns:repeat(3"],
+    [style*="grid-template-columns:1.4fr"]{grid-template-columns:repeat(2,1fr)!important;}
+    [style*="grid-template-columns:1.05fr"],
+    [style*="grid-template-columns:.9fr"],
+    [style*="grid-template-columns:1.1fr"],
+    [style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important;}
+    nav [style*="justify-content:space-between"]{flex-wrap:wrap;gap:14px;justify-content:center!important;}
+    [style*="gap:28px"]{flex-wrap:wrap;justify-content:center;gap:14px 18px!important;}
+  }
+  @media (max-width: 560px){
+    [style*="grid-template-columns"]{grid-template-columns:1fr!important;}
+    [style*="padding:74px 32px"]{padding:46px 18px 56px!important;}
+    [style*="padding:14px 32px"]{padding:12px 16px!important;}
+    [style*="padding:9px 32px"]{padding:9px 16px!important;}
+  }
+</style>
 </helmet>
 
 <div style="background:#eef6f5;overflow-x:hidden">
