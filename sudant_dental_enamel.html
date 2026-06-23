@@ -10,13 +10,13 @@
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{font-family:'Manrope',sans-serif;color:#1c3a47;background:#eef6f5;-webkit-font-smoothing:antialiased}
-  ::selection{background:#15b3a0;color:#fff}
+  body{font-family:'Manrope',sans-serif;color:#1c3a47;background:#fbf8f3;-webkit-font-smoothing:antialiased}
+  ::selection{background:#e89b73;color:#fff}
   @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 </style>
 <style>
@@ -51,10 +51,10 @@
 </style>
 </helmet>
 
-<div style="background:#eef6f5;overflow-x:hidden">
+<div style="background:#fbf8f3;overflow-x:hidden">
 
   <!-- ===== TOP BAR ===== -->
-  <div style="background:#0d4a47;color:#cae6e1;font-size:13px;font-weight:500">
+  <div style="background:#143a49;color:#cfe0e6;font-size:13px;font-weight:500">
     <div style="max-width:1200px;margin:0 auto;padding:9px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
       <div style="display:flex;align-items:center;gap:8px"><span style="opacity:.7">📍</span> 150 Feet Ring Road, Rajkot · Behind Sterling Hospital</div>
       <div style="display:flex;align-items:center;gap:22px">
@@ -65,19 +65,19 @@
   </div>
 
   <!-- ===== NAV ===== -->
-  <nav style="position:sticky;top:0;z-index:50;background:rgba(251,248,243,.88);backdrop-filter:blur(12px);border-bottom:1px solid #cfe6e2">
+  <nav style="position:sticky;top:0;z-index:50;background:rgba(251,248,243,.88);backdrop-filter:blur(12px);border-bottom:1px solid #ece3d6">
     <div style="max-width:1200px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between">
       <a href="#top" style="display:flex;align-items:center;gap:13px;text-decoration:none">
-        <div style="width:46px;height:46px;border-radius:50%;background:#0d4a47;display:flex;align-items:center;justify-content:center;flex:none">
+        <div style="width:46px;height:46px;border-radius:50%;background:#143a49;display:flex;align-items:center;justify-content:center;flex:none">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3.2c-2.2-1.6-5.3-1.6-6.8.6-1.7 2.4-.9 6 .4 9.4.7 1.8 1 4 1.4 5.6.3 1.3 1.8 1.4 2.2.1.4-1.4.6-3 .8-3 .2 0 .4 1.6.8 3 .4 1.3 1.9 1.2 2.2-.1.4-1.6.7-3.8 1.4-5.6 1.3-3.4 2.1-7 .4-9.4-1.5-2.2-4.6-2.2-6.8-.6Z" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg>
         </div>
         <div style="line-height:1">
-          <div style="font-family:'Sora',sans-serif;font-size:22px;letter-spacing:.18em;color:#0d4a47;font-weight:600">SUDANT</div>
+          <div style="font-family:'Fraunces',serif;font-size:22px;letter-spacing:.18em;color:#143a49;font-weight:600">SUDANT</div>
           <div style="font-size:9.5px;letter-spacing:.22em;color:#8a9aa1;margin-top:3px;font-weight:600">DENTAL CLINIC &amp; IMPLANT CENTER</div>
         </div>
       </a>
       <div style="display:flex;align-items:center;gap:30px">
-        <div style="display:flex;gap:28px;font-size:14.5px;font-weight:600;color:#235049">
+        <div style="display:flex;gap:28px;font-size:14.5px;font-weight:600;color:#2c4b57">
           <a href="#about" style="text-decoration:none;color:inherit">About</a>
           <a href="#services" style="text-decoration:none;color:inherit">Services</a>
           <a href="#results" style="text-decoration:none;color:inherit">Smiles</a>
@@ -85,7 +85,7 @@
           <a href="#faq" style="text-decoration:none;color:inherit">FAQ</a>
           <a href="#visit" style="text-decoration:none;color:inherit">Visit</a>
         </div>
-        <a href="https://wa.me/919724575598" style="background:#15b3a0;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:11px 20px;border-radius:40px;box-shadow:0 6px 18px rgba(21,179,160,.35)">Book a Visit</a>
+        <a href="https://wa.me/919724575598" style="background:#e89b73;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:11px 20px;border-radius:40px;box-shadow:0 6px 18px rgba(232,155,115,.35)">Book a Visit</a>
       </div>
     </div>
     <button id="navBurger" aria-label="Open menu" onclick="navOpen()"><span></span><span></span><span></span></button>
@@ -107,38 +107,35 @@
   </script>
 
   <!-- ===== HERO ===== -->
-  <header id="top" style="position:relative;background:radial-gradient(120% 100% at 80% 0%,#11665f 0%,#0d4a47 55%,#06302d 100%);color:#fff;overflow:hidden">
-    <div style="position:absolute;inset:0;opacity:.5;background-image:radial-gradient(circle at 18% 30%,rgba(21,179,160,.18),transparent 40%),radial-gradient(circle at 90% 80%,rgba(120,200,210,.12),transparent 45%)"></div>
+  <header id="top" style="position:relative;background:radial-gradient(120% 100% at 80% 0%,#1b4a5d 0%,#143a49 55%,#0f2e3a 100%);color:#fff;overflow:hidden">
+    <div style="position:absolute;inset:0;opacity:.5;background-image:radial-gradient(circle at 18% 30%,rgba(232,155,115,.18),transparent 40%),radial-gradient(circle at 90% 80%,rgba(120,200,210,.12),transparent 45%)"></div>
     <div style="max-width:1200px;margin:0 auto;padding:74px 32px 90px;display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center;position:relative">
       <div>
-        <div style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:7px 15px;border-radius:40px;font-size:13px;font-weight:600;letter-spacing:.02em;margin-bottom:26px">
-          <span style="width:8px;height:8px;border-radius:50%;background:#7fe0a8;box-shadow:0 0 0 4px rgba(127,224,168,.25)"></span> Now accepting new families in Rajkot
-        </div>
-        <h1 style="font-family:'Sora',sans-serif;font-weight:500;font-size:58px;line-height:1.06;letter-spacing:-.01em;margin-bottom:22px">A smile your whole family can <span style="font-style:italic;color:#5fdccb">feel good</span> about.</h1>
-        <p style="font-size:18px;line-height:1.6;color:#cae6e1;max-width:480px;margin-bottom:34px;font-weight:400">Gentle, honest dentistry from Dr. Keyuri Vamja — from your child's first check-up to implants and complete smile makeovers, all under one warm, modern roof.</p>
+        <h1 style="font-family:'Fraunces',serif;font-weight:500;font-size:58px;line-height:1.06;letter-spacing:-.01em;margin-bottom:22px">A smile your whole family can <span style="font-style:italic;color:#f0b894">feel good</span> about.</h1>
+        <p style="font-size:18px;line-height:1.6;color:#cfe0e6;max-width:480px;margin-bottom:34px;font-weight:400">Gentle, honest dentistry from Dr. Keyuri Vamja — from your child's first check-up to implants and complete smile makeovers, all under one warm, modern roof.</p>
         <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px">
-          <a href="https://wa.me/919724575598" style="background:#15b3a0;color:#fff;text-decoration:none;font-weight:700;font-size:15.5px;padding:15px 28px;border-radius:44px;box-shadow:0 10px 26px rgba(21,179,160,.4);display:inline-flex;align-items:center;gap:9px">💬 Chat on WhatsApp</a>
+          <a href="https://wa.me/919724575598" style="background:#e89b73;color:#fff;text-decoration:none;font-weight:700;font-size:15.5px;padding:15px 28px;border-radius:44px;box-shadow:0 10px 26px rgba(232,155,115,.4);display:inline-flex;align-items:center;gap:9px">💬 Chat on WhatsApp</a>
           <a href="tel:+919724575598" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.25);color:#fff;text-decoration:none;font-weight:700;font-size:15.5px;padding:15px 28px;border-radius:44px;display:inline-flex;align-items:center;gap:9px">📞 +91 97245 75598</a>
         </div>
         <div style="display:flex;gap:30px;align-items:center">
-          <div><div style="font-family:'Sora',sans-serif;font-size:30px;font-weight:600">4.9★</div><div style="font-size:12.5px;color:#9cc2bc;font-weight:600;letter-spacing:.02em">Patient rating</div></div>
+          <div><div style="font-family:'Fraunces',serif;font-size:30px;font-weight:600">4.9★</div><div style="font-size:12.5px;color:#9fb6bd;font-weight:600;letter-spacing:.02em">Patient rating</div></div>
           <div style="width:1px;height:38px;background:rgba(255,255,255,.18)"></div>
-          <div><div style="font-family:'Sora',sans-serif;font-size:30px;font-weight:600">12+</div><div style="font-size:12.5px;color:#9cc2bc;font-weight:600;letter-spacing:.02em">Years of care</div></div>
+          <div><div style="font-family:'Fraunces',serif;font-size:30px;font-weight:600">12+</div><div style="font-size:12.5px;color:#9fb6bd;font-weight:600;letter-spacing:.02em">Years of care</div></div>
           <div style="width:1px;height:38px;background:rgba(255,255,255,.18)"></div>
-          <div><div style="font-family:'Sora',sans-serif;font-size:30px;font-weight:600">BDS</div><div style="font-size:12.5px;color:#9cc2bc;font-weight:600;letter-spacing:.02em">Reg. A-32805</div></div>
+          <div><div style="font-family:'Fraunces',serif;font-size:30px;font-weight:600">BDS</div><div style="font-size:12.5px;color:#9fb6bd;font-weight:600;letter-spacing:.02em">Reg. A-32805</div></div>
         </div>
       </div>
       <div style="position:relative">
-        <div style="position:relative;border-radius:28px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.35);background:repeating-linear-gradient(45deg,#0d6960,#0d6960 12px,#16847c 12px,#16847c 24px);aspect-ratio:4/5;display:flex;align-items:center;justify-content:center">
+        <div style="position:relative;border-radius:28px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.35);background:repeating-linear-gradient(45deg,#1d4f64,#1d4f64 12px,#22596f 12px,#22596f 24px);aspect-ratio:4/5;display:flex;align-items:center;justify-content:center">
           <span style="font-family:monospace;font-size:13px;color:rgba(255,255,255,.7);text-align:center;padding:0 20px;line-height:1.7">[ hero photo ]<br>Dr. Keyuri with a<br>happy patient / family<br><span style="opacity:.6">portrait · 4:5</span></span>
         </div>
-        <div style="position:absolute;bottom:-22px;left:-26px;background:#fff;color:#0d4a47;border-radius:18px;padding:16px 20px;box-shadow:0 16px 36px rgba(0,0,0,.22);display:flex;align-items:center;gap:13px;animation:floaty 5s ease-in-out infinite">
-          <div style="width:42px;height:42px;border-radius:12px;background:#dcf0ec;display:flex;align-items:center;justify-content:center;color:#15b3a0"><i data-lucide="smile" width="22" height="22"></i></div>
-          <div><div style="font-weight:800;font-size:15px">Painless dentistry</div><div style="font-size:12.5px;color:#6b8881;font-weight:600">Gentle, anxiety-free care</div></div>
+        <div style="position:absolute;bottom:-22px;left:-26px;background:#fff;color:#143a49;border-radius:18px;padding:16px 20px;box-shadow:0 16px 36px rgba(0,0,0,.22);display:flex;align-items:center;gap:13px;animation:floaty 5s ease-in-out infinite">
+          <div style="width:42px;height:42px;border-radius:12px;background:#fcefe6;display:flex;align-items:center;justify-content:center;color:#e89b73"><i data-lucide="smile" width="22" height="22"></i></div>
+          <div><div style="font-weight:800;font-size:15px">Painless dentistry</div><div style="font-size:12.5px;color:#7c8c93;font-weight:600">Gentle, anxiety-free care</div></div>
         </div>
       </div>
     </div>
-    <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,#eef6f5,transparent)"></div>
+    <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,#fbf8f3,transparent)"></div>
   </header>
 
   <!-- ===== TRUST STRIP ===== -->
@@ -146,8 +143,8 @@
     <div style="background:#fff;border-radius:20px;box-shadow:0 18px 44px rgba(20,58,73,.1);padding:26px 18px;display:grid;grid-template-columns:repeat(4,1fr)">
       <sc-for list="{{ trust }}" as="t" hint-placeholder-count="4">
         <div style="text-align:center;padding:6px 14px;border-right:1px solid #f0e9dd">
-          <div style="font-family:'Sora',sans-serif;font-size:34px;font-weight:600;color:#0d4a47">{{ t.num }}</div>
-          <div style="font-size:13px;color:#6b8881;font-weight:600;margin-top:3px">{{ t.label }}</div>
+          <div style="font-family:'Fraunces',serif;font-size:34px;font-weight:600;color:#143a49">{{ t.num }}</div>
+          <div style="font-size:13px;color:#7c8c93;font-weight:600;margin-top:3px">{{ t.label }}</div>
         </div>
       </sc-for>
     </div>
@@ -159,39 +156,39 @@
       <div style="border-radius:24px;overflow:hidden;background:repeating-linear-gradient(45deg,#eadfce,#eadfce 12px,#f2e9da 12px,#f2e9da 24px);aspect-ratio:1/1.12;display:flex;align-items:center;justify-content:center;box-shadow:0 22px 50px rgba(20,58,73,.13)">
         <span style="font-family:monospace;font-size:13px;color:#9c8b73;text-align:center;line-height:1.7">[ doctor portrait ]<br>Dr. Keyuri Vamja<br><span style="opacity:.7">at the clinic · 1:1.1</span></span>
       </div>
-      <div style="position:absolute;top:-18px;right:-18px;background:#0d4a47;color:#fff;border-radius:16px;padding:14px 18px;text-align:center;box-shadow:0 14px 30px rgba(20,58,73,.3)">
-        <div style="font-family:'Sora',sans-serif;font-size:26px;font-weight:600">12+</div>
-        <div style="font-size:11px;letter-spacing:.06em;color:#cae6e1;font-weight:600">YEARS</div>
+      <div style="position:absolute;top:-18px;right:-18px;background:#143a49;color:#fff;border-radius:16px;padding:14px 18px;text-align:center;box-shadow:0 14px 30px rgba(20,58,73,.3)">
+        <div style="font-family:'Fraunces',serif;font-size:26px;font-weight:600">12+</div>
+        <div style="font-size:11px;letter-spacing:.06em;color:#cfe0e6;font-weight:600">YEARS</div>
       </div>
     </div>
     <div>
-      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#15b3a0;margin-bottom:14px">MEET YOUR DENTIST</div>
-      <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;line-height:1.12;color:#0d4a47;margin-bottom:8px">Dr. Keyuri Vamja <span style="font-style:italic">(Patel)</span></h2>
-      <div style="font-size:15px;color:#6b8881;font-weight:700;margin-bottom:22px">BDS, Dental Surgeon · Reg. No. A-32805</div>
-      <p style="font-size:17px;line-height:1.7;color:#2f5650;margin-bottom:18px">At Sudant Dental Clinic, we believe a great smile begins with trust. Dr. Keyuri combines a gentle, unhurried chairside manner with modern technique — taking the time to listen, explain every option honestly, and make sure you (and your little ones) feel completely at ease.</p>
-      <p style="font-size:17px;line-height:1.7;color:#2f5650;margin-bottom:28px">From routine cleanings to dental implants and full smile makeovers, every treatment is planned around your comfort, your budget, and a result built to last.</p>
+      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#e89b73;margin-bottom:14px">MEET YOUR DENTIST</div>
+      <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;line-height:1.12;color:#143a49;margin-bottom:8px">Dr. Keyuri Vamja <span style="font-style:italic">(Patel)</span></h2>
+      <div style="font-size:15px;color:#7c8c93;font-weight:700;margin-bottom:22px">BDS, Dental Surgeon · Reg. No. A-32805</div>
+      <p style="font-size:17px;line-height:1.7;color:#3c5560;margin-bottom:18px">At Sudant Dental Clinic, we believe a great smile begins with trust. Dr. Keyuri combines a gentle, unhurried chairside manner with modern technique — taking the time to listen, explain every option honestly, and make sure you (and your little ones) feel completely at ease.</p>
+      <p style="font-size:17px;line-height:1.7;color:#3c5560;margin-bottom:28px">From routine cleanings to dental implants and full smile makeovers, every treatment is planned around your comfort, your budget, and a result built to last.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap">
         <sc-for list="{{ creds }}" as="c" hint-placeholder-count="3">
-          <div style="display:flex;align-items:center;gap:9px;background:#fff;border:1px solid #cfe6e2;border-radius:40px;padding:9px 17px;font-size:14px;font-weight:700;color:#235049"><span style="color:#15b3a0">✓</span> {{ c }}</div>
+          <div style="display:flex;align-items:center;gap:9px;background:#fff;border:1px solid #ece3d6;border-radius:40px;padding:9px 17px;font-size:14px;font-weight:700;color:#2c4b57"><span style="color:#e89b73">✓</span> {{ c }}</div>
         </sc-for>
       </div>
     </div>
   </section>
 
   <!-- ===== SERVICES ===== -->
-  <section id="services" style="background:#0d4a47;color:#fff;padding:90px 0">
+  <section id="services" style="background:#143a49;color:#fff;padding:90px 0">
     <div style="max-width:1200px;margin:0 auto;padding:0 32px">
       <div style="text-align:center;max-width:640px;margin:0 auto 54px">
-        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#5fdccb;margin-bottom:14px">WHAT WE DO</div>
-        <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;line-height:1.12;margin-bottom:16px">Complete dental care, all under one roof</h2>
-        <p style="font-size:17px;color:#b6d6d0;line-height:1.6">Whatever your smile needs, you won't be sent across town. Here's how we can help.</p>
+        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#f0b894;margin-bottom:14px">WHAT WE DO</div>
+        <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;line-height:1.12;margin-bottom:16px">Complete dental care, all under one roof</h2>
+        <p style="font-size:17px;color:#bcd0d7;line-height:1.6">Whatever your smile needs, you won't be sent across town. Here's how we can help.</p>
       </div>
       <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px">
         <sc-for list="{{ services }}" as="s" hint-placeholder-count="8">
           <div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:26px 22px;transition:transform .2s,background .2s" style-hover="background:rgba(255,255,255,.1);transform:translateY(-5px)">
-            <div style="width:50px;height:50px;border-radius:14px;background:rgba(21,179,160,.18);display:flex;align-items:center;justify-content:center;margin-bottom:18px;color:#5fdccb"><i data-lucide="{{ s.icon }}" width="24" height="24"></i></div>
+            <div style="width:50px;height:50px;border-radius:14px;background:rgba(232,155,115,.18);display:flex;align-items:center;justify-content:center;margin-bottom:18px;color:#f0b894"><i data-lucide="{{ s.icon }}" width="24" height="24"></i></div>
             <h3 style="font-size:18px;font-weight:800;margin-bottom:8px">{{ s.title }}</h3>
-            <p style="font-size:14px;line-height:1.55;color:#a8ccc6">{{ s.desc }}</p>
+            <p style="font-size:14px;line-height:1.55;color:#aec5cd">{{ s.desc }}</p>
           </div>
         </sc-for>
       </div>
@@ -201,27 +198,27 @@
   <!-- ===== PROCESS ===== -->
   <section style="max-width:1200px;margin:0 auto;padding:90px 32px 60px">
     <div style="text-align:center;max-width:600px;margin:0 auto 56px">
-      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#15b3a0;margin-bottom:14px">YOUR VISIT</div>
-      <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;color:#0d4a47;line-height:1.12">Simple, honest, no surprises</h2>
+      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#e89b73;margin-bottom:14px">YOUR VISIT</div>
+      <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;color:#143a49;line-height:1.12">Simple, honest, no surprises</h2>
     </div>
     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:22px">
       <sc-for list="{{ steps }}" as="p" hint-placeholder-count="4">
         <div style="text-align:center;position:relative">
-          <div style="width:64px;height:64px;border-radius:50%;background:#dcf0ec;color:#15b3a0;font-family:'Sora',sans-serif;font-size:26px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto 18px">{{ p.n }}</div>
-          <h3 style="font-size:18px;font-weight:800;color:#0d4a47;margin-bottom:8px">{{ p.title }}</h3>
-          <p style="font-size:14.5px;line-height:1.6;color:#54756e;max-width:230px;margin:0 auto">{{ p.desc }}</p>
+          <div style="width:64px;height:64px;border-radius:50%;background:#fcefe6;color:#e89b73;font-family:'Fraunces',serif;font-size:26px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto 18px">{{ p.n }}</div>
+          <h3 style="font-size:18px;font-weight:800;color:#143a49;margin-bottom:8px">{{ p.title }}</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#5f7780;max-width:230px;margin:0 auto">{{ p.desc }}</p>
         </div>
       </sc-for>
     </div>
   </section>
 
   <!-- ===== RESULTS / BEFORE-AFTER ===== -->
-  <section id="results" style="background:#e1f0ed;padding:90px 0">
+  <section id="results" style="background:#f3ece0;padding:90px 0">
     <div style="max-width:1200px;margin:0 auto;padding:0 32px">
       <div style="text-align:center;max-width:620px;margin:0 auto 50px">
-        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#15b3a0;margin-bottom:14px">REAL SMILES</div>
-        <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;color:#0d4a47;line-height:1.12;margin-bottom:14px">Before &amp; after, from our chair</h2>
-        <p style="font-size:17px;color:#54756e;line-height:1.6">A few of the transformations we're proud of. Your results, your story — coming soon.</p>
+        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#e89b73;margin-bottom:14px">REAL SMILES</div>
+        <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;color:#143a49;line-height:1.12;margin-bottom:14px">Before &amp; after, from our chair</h2>
+        <p style="font-size:17px;color:#5f7780;line-height:1.6">A few of the transformations we're proud of. Your results, your story — coming soon.</p>
       </div>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px">
         <sc-for list="{{ gallery }}" as="g" hint-placeholder-count="3">
@@ -230,7 +227,7 @@
               <div style="background:repeating-linear-gradient(45deg,#d9cdb8,#d9cdb8 10px,#e2d8c6 10px,#e2d8c6 20px);display:flex;align-items:flex-end;justify-content:flex-start;padding:10px"><span style="font-family:monospace;font-size:11px;background:rgba(0,0,0,.5);color:#fff;padding:3px 8px;border-radius:5px">before</span></div>
               <div style="background:repeating-linear-gradient(45deg,#cfe0d8,#cfe0d8 10px,#dbeae3 10px,#dbeae3 20px);display:flex;align-items:flex-end;justify-content:flex-start;padding:10px"><span style="font-family:monospace;font-size:11px;background:rgba(20,58,73,.7);color:#fff;padding:3px 8px;border-radius:5px">after</span></div>
             </div>
-            <div style="padding:18px 20px"><h3 style="font-size:16.5px;font-weight:800;color:#0d4a47;margin-bottom:4px">{{ g.title }}</h3><p style="font-size:13.5px;color:#6b8881;font-weight:600">{{ g.tag }}</p></div>
+            <div style="padding:18px 20px"><h3 style="font-size:16.5px;font-weight:800;color:#143a49;margin-bottom:4px">{{ g.title }}</h3><p style="font-size:13.5px;color:#7c8c93;font-weight:600">{{ g.tag }}</p></div>
           </div>
         </sc-for>
       </div>
@@ -240,42 +237,42 @@
   <!-- ===== WHY US ===== -->
   <section id="why" style="max-width:1200px;margin:0 auto;padding:92px 32px 60px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center">
     <div>
-      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#15b3a0;margin-bottom:14px">WHY FAMILIES CHOOSE US</div>
-      <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;color:#0d4a47;line-height:1.12;margin-bottom:22px">Care that feels personal, every single visit</h2>
-      <p style="font-size:17px;line-height:1.7;color:#2f5650;margin-bottom:34px">We're a neighbourhood clinic, not a factory. That means more time with your dentist, clear answers, and a space designed to keep even the most nervous patient calm.</p>
+      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#e89b73;margin-bottom:14px">WHY FAMILIES CHOOSE US</div>
+      <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;color:#143a49;line-height:1.12;margin-bottom:22px">Care that feels personal, every single visit</h2>
+      <p style="font-size:17px;line-height:1.7;color:#3c5560;margin-bottom:34px">We're a neighbourhood clinic, not a factory. That means more time with your dentist, clear answers, and a space designed to keep even the most nervous patient calm.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px">
         <sc-for list="{{ why }}" as="w" hint-placeholder-count="4">
           <div>
-            <div style="width:46px;height:46px;border-radius:13px;background:#dcf0ec;display:flex;align-items:center;justify-content:center;margin-bottom:13px;color:#15b3a0"><i data-lucide="{{ w.icon }}" width="22" height="22"></i></div>
-            <h3 style="font-size:17px;font-weight:800;color:#0d4a47;margin-bottom:6px">{{ w.title }}</h3>
-            <p style="font-size:14.5px;line-height:1.6;color:#54756e">{{ w.desc }}</p>
+            <div style="width:46px;height:46px;border-radius:13px;background:#fcefe6;display:flex;align-items:center;justify-content:center;margin-bottom:13px;color:#e89b73"><i data-lucide="{{ w.icon }}" width="22" height="22"></i></div>
+            <h3 style="font-size:17px;font-weight:800;color:#143a49;margin-bottom:6px">{{ w.title }}</h3>
+            <p style="font-size:14.5px;line-height:1.6;color:#5f7780">{{ w.desc }}</p>
           </div>
         </sc-for>
       </div>
     </div>
     <div style="position:relative">
-      <div style="border-radius:24px;overflow:hidden;background:repeating-linear-gradient(45deg,#0d6960,#0d6960 12px,#16847c 12px,#16847c 24px);aspect-ratio:1/1.05;display:flex;align-items:center;justify-content:center;box-shadow:0 22px 50px rgba(20,58,73,.18)">
+      <div style="border-radius:24px;overflow:hidden;background:repeating-linear-gradient(45deg,#1d4f64,#1d4f64 12px,#22596f 12px,#22596f 24px);aspect-ratio:1/1.05;display:flex;align-items:center;justify-content:center;box-shadow:0 22px 50px rgba(20,58,73,.18)">
         <span style="font-family:monospace;font-size:13px;color:rgba(255,255,255,.7);text-align:center;line-height:1.7">[ clinic interior ]<br>warm, modern<br>reception / chair<br><span style="opacity:.6">photo · ~1:1</span></span>
       </div>
     </div>
   </section>
 
   <!-- ===== TESTIMONIALS ===== -->
-  <section style="background:#0d4a47;color:#fff;padding:90px 0">
+  <section style="background:#143a49;color:#fff;padding:90px 0">
     <div style="max-width:1200px;margin:0 auto;padding:0 32px">
       <div style="text-align:center;max-width:640px;margin:0 auto 50px">
-        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#5fdccb;margin-bottom:14px">KIND WORDS</div>
-        <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;line-height:1.12;margin-bottom:14px">What our patients say</h2>
-        <p style="font-size:16.5px;color:#b6d6d0;line-height:1.6">Real reviews from our patients — many of them share their smiles with us on Instagram too.</p>
+        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#f0b894;margin-bottom:14px">KIND WORDS</div>
+        <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;line-height:1.12;margin-bottom:14px">What our patients say</h2>
+        <p style="font-size:16.5px;color:#bcd0d7;line-height:1.6">Real reviews from our patients — many of them share their smiles with us on Instagram too.</p>
       </div>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px">
         <sc-for list="{{ reviews }}" as="r" hint-placeholder-count="3">
           <div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:28px 24px">
-            <div style="color:#5fdccb;font-size:16px;letter-spacing:2px;margin-bottom:14px">★★★★★</div>
-            <p style="font-size:15.5px;line-height:1.65;color:#d6ece8;margin-bottom:20px">{{ r.text }}</p>
+            <div style="color:#f0b894;font-size:16px;letter-spacing:2px;margin-bottom:14px">★★★★★</div>
+            <p style="font-size:15.5px;line-height:1.65;color:#dce8ec;margin-bottom:20px">{{ r.text }}</p>
             <div style="display:flex;align-items:center;gap:12px">
-              <div style="width:42px;height:42px;border-radius:50%;background:#15b3a0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px">{{ r.initial }}</div>
-              <div><div style="font-weight:800;font-size:14.5px">{{ r.name }}</div><div style="font-size:12.5px;color:#9cc2bc;font-weight:600">{{ r.tag }}</div></div>
+              <div style="width:42px;height:42px;border-radius:50%;background:#e89b73;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px">{{ r.initial }}</div>
+              <div><div style="font-weight:800;font-size:14.5px">{{ r.name }}</div><div style="font-size:12.5px;color:#9fb6bd;font-weight:600">{{ r.tag }}</div></div>
             </div>
           </div>
         </sc-for>
@@ -283,12 +280,12 @@
 
       <div style="margin-top:50px;padding-top:44px;border-top:1px solid rgba(255,255,255,.1)">
         <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:26px">
-          <div style="display:flex;align-items:center;gap:11px;font-weight:800;font-size:17px;color:#fff"><i data-lucide="camera" width="20" height="20" style="color:#5fdccb"></i> More patient smiles on Instagram</div>
+          <div style="display:flex;align-items:center;gap:11px;font-weight:800;font-size:17px;color:#fff"><i data-lucide="camera" width="20" height="20" style="color:#f0b894"></i> More patient smiles on Instagram</div>
           <a href="#" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:11px 20px;border-radius:40px">See more reviews ↗</a>
         </div>
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
           <sc-for list="{{ insta }}" as="i" hint-placeholder-count="4">
-            <div style="aspect-ratio:1;border-radius:16px;overflow:hidden;background:repeating-linear-gradient(45deg,#0d6960,#0d6960 11px,#16847c 11px,#16847c 22px);display:flex;align-items:center;justify-content:center"><span style="font-family:monospace;font-size:11.5px;color:rgba(255,255,255,.7);text-align:center;line-height:1.6">[ ig post ]<br>{{ i }}</span></div>
+            <div style="aspect-ratio:1;border-radius:16px;overflow:hidden;background:repeating-linear-gradient(45deg,#1d4f64,#1d4f64 11px,#22596f 11px,#22596f 22px);display:flex;align-items:center;justify-content:center"><span style="font-family:monospace;font-size:11.5px;color:rgba(255,255,255,.7);text-align:center;line-height:1.6">[ ig post ]<br>{{ i }}</span></div>
           </sc-for>
         </div>
       </div>
@@ -298,18 +295,18 @@
   <!-- ===== FAQ ===== -->
   <section id="faq" style="max-width:860px;margin:0 auto;padding:80px 32px 60px">
     <div style="text-align:center;margin-bottom:44px">
-      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#15b3a0;margin-bottom:14px">GOOD TO KNOW</div>
-      <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:42px;color:#0d4a47;line-height:1.12">Frequently asked questions</h2>
+      <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#e89b73;margin-bottom:14px">GOOD TO KNOW</div>
+      <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:42px;color:#143a49;line-height:1.12">Frequently asked questions</h2>
     </div>
     <div style="display:flex;flex-direction:column;gap:14px">
       <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
-        <div onClick="{{ f.toggle }}" style="background:#fff;border:1px solid #cfe6e2;border-radius:16px;padding:22px 26px;cursor:pointer;transition:box-shadow .2s" style-hover="box-shadow:0 8px 22px rgba(20,58,73,.07)">
+        <div onClick="{{ f.toggle }}" style="background:#fff;border:1px solid #ece3d6;border-radius:16px;padding:22px 26px;cursor:pointer;transition:box-shadow .2s" style-hover="box-shadow:0 8px 22px rgba(20,58,73,.07)">
           <div style="display:flex;justify-content:space-between;align-items:center;gap:16px">
-            <h3 style="font-size:17px;font-weight:800;color:#0d4a47">{{ f.q }}</h3>
-            <span style="font-size:24px;color:#15b3a0;font-weight:400;flex:none;line-height:1">{{ f.sign }}</span>
+            <h3 style="font-size:17px;font-weight:800;color:#143a49">{{ f.q }}</h3>
+            <span style="font-size:24px;color:#e89b73;font-weight:400;flex:none;line-height:1">{{ f.sign }}</span>
           </div>
           <sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}">
-            <p style="font-size:15.5px;line-height:1.65;color:#54756e;margin-top:14px">{{ f.a }}</p>
+            <p style="font-size:15.5px;line-height:1.65;color:#5f7780;margin-top:14px">{{ f.a }}</p>
           </sc-if>
         </div>
       </sc-for>
@@ -320,52 +317,52 @@
   <section id="visit" style="max-width:1200px;margin:0 auto;padding:70px 32px 90px">
     <div style="background:#fff;border-radius:26px;box-shadow:0 24px 56px rgba(20,58,73,.1);overflow:hidden;display:grid;grid-template-columns:1fr 1fr">
       <div style="padding:50px 48px">
-        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#15b3a0;margin-bottom:14px">VISIT US</div>
-        <h2 style="font-family:'Sora',sans-serif;font-weight:500;font-size:38px;color:#0d4a47;line-height:1.12;margin-bottom:26px">Come say hello in Rajkot</h2>
+        <div style="font-size:13px;font-weight:700;letter-spacing:.16em;color:#e89b73;margin-bottom:14px">VISIT US</div>
+        <h2 style="font-family:'Fraunces',serif;font-weight:500;font-size:38px;color:#143a49;line-height:1.12;margin-bottom:26px">Come say hello in Rajkot</h2>
         <div style="display:flex;flex-direction:column;gap:22px">
-          <div style="display:flex;gap:15px"><div style="width:44px;height:44px;border-radius:12px;background:#dcf0ec;display:flex;align-items:center;justify-content:center;flex:none;color:#15b3a0"><i data-lucide="map-pin" width="20" height="20"></i></div><div><div style="font-weight:800;font-size:15px;color:#0d4a47;margin-bottom:3px">Sudant Dental Clinic &amp; Implant Center</div><div style="font-size:14.5px;line-height:1.55;color:#54756e">Titanium One, Radhika Park Main Road, Near Nanavati Circle, Behind Sterling Hospital, 150 Feet Ring Road, Rajkot</div></div></div>
-          <div style="display:flex;gap:15px"><div style="width:44px;height:44px;border-radius:12px;background:#dcf0ec;display:flex;align-items:center;justify-content:center;flex:none;color:#15b3a0"><i data-lucide="phone" width="20" height="20"></i></div><div><div style="font-weight:800;font-size:15px;color:#0d4a47;margin-bottom:3px">Call or WhatsApp</div><a href="tel:+919724575598" style="font-size:14.5px;color:#54756e;text-decoration:none">+91 97245 75598</a></div></div>
-          <div style="display:flex;gap:15px"><div style="width:44px;height:44px;border-radius:12px;background:#dcf0ec;display:flex;align-items:center;justify-content:center;flex:none;color:#15b3a0"><i data-lucide="clock" width="20" height="20"></i></div><div><div style="font-weight:800;font-size:15px;color:#0d4a47;margin-bottom:3px">Opening hours</div><div style="font-size:14.5px;line-height:1.55;color:#54756e">Mon – Sat · 10:00 AM – 8:00 PM<br>Sunday · By appointment</div></div></div>
+          <div style="display:flex;gap:15px"><div style="width:44px;height:44px;border-radius:12px;background:#fcefe6;display:flex;align-items:center;justify-content:center;flex:none;color:#e89b73"><i data-lucide="map-pin" width="20" height="20"></i></div><div><div style="font-weight:800;font-size:15px;color:#143a49;margin-bottom:3px">Sudant Dental Clinic &amp; Implant Center</div><div style="font-size:14.5px;line-height:1.55;color:#5f7780">Titanium One, Radhika Park Main Road, Near Nanavati Circle, Behind Sterling Hospital, 150 Feet Ring Road, Rajkot</div></div></div>
+          <div style="display:flex;gap:15px"><div style="width:44px;height:44px;border-radius:12px;background:#fcefe6;display:flex;align-items:center;justify-content:center;flex:none;color:#e89b73"><i data-lucide="phone" width="20" height="20"></i></div><div><div style="font-weight:800;font-size:15px;color:#143a49;margin-bottom:3px">Call or WhatsApp</div><a href="tel:+919724575598" style="font-size:14.5px;color:#5f7780;text-decoration:none">+91 97245 75598</a></div></div>
+          <div style="display:flex;gap:15px"><div style="width:44px;height:44px;border-radius:12px;background:#fcefe6;display:flex;align-items:center;justify-content:center;flex:none;color:#e89b73"><i data-lucide="clock" width="20" height="20"></i></div><div><div style="font-weight:800;font-size:15px;color:#143a49;margin-bottom:3px">Opening hours</div><div style="font-size:14.5px;line-height:1.55;color:#5f7780">Mon – Sat · 10:00 AM – 8:00 PM<br>Sunday · By appointment</div></div></div>
         </div>
         <div style="display:flex;gap:13px;margin-top:34px;flex-wrap:wrap">
-          <a href="https://wa.me/919724575598" style="background:#15b3a0;color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:14px 26px;border-radius:44px;box-shadow:0 10px 24px rgba(21,179,160,.35)">💬 WhatsApp Us</a>
-          <a href="tel:+919724575598" style="background:#0d4a47;color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:14px 26px;border-radius:44px">📞 Call Now</a>
+          <a href="https://wa.me/919724575598" style="background:#e89b73;color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:14px 26px;border-radius:44px;box-shadow:0 10px 24px rgba(232,155,115,.35)">💬 WhatsApp Us</a>
+          <a href="tel:+919724575598" style="background:#143a49;color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:14px 26px;border-radius:44px">📞 Call Now</a>
         </div>
       </div>
       <a href="https://maps.google.com/?q=Sudant+Dental+Clinic+150+Feet+Ring+Road+Rajkot" target="_blank" style="position:relative;background:repeating-linear-gradient(45deg,#dfeaee,#dfeaee 14px,#e9f1f3 14px,#e9f1f3 28px);min-height:380px;display:flex;align-items:center;justify-content:center;text-decoration:none">
         <div style="text-align:center">
-          <div style="width:60px;height:60px;border-radius:50%;background:#15b3a0;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto 14px;box-shadow:0 10px 26px rgba(21,179,160,.45)">📍</div>
-          <div style="font-family:monospace;font-size:12.5px;color:#6f8189;line-height:1.6">[ google map embed ]<br>150 Feet Ring Road, Rajkot<br><span style="color:#0d4a47;font-weight:700;font-family:'Manrope';font-size:13px">Open in Google Maps ↗</span></div>
+          <div style="width:60px;height:60px;border-radius:50%;background:#e89b73;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto 14px;box-shadow:0 10px 26px rgba(232,155,115,.45)">📍</div>
+          <div style="font-family:monospace;font-size:12.5px;color:#6f8189;line-height:1.6">[ google map embed ]<br>150 Feet Ring Road, Rajkot<br><span style="color:#143a49;font-weight:700;font-family:'Manrope';font-size:13px">Open in Google Maps ↗</span></div>
         </div>
       </a>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer style="background:#06302d;color:#9cc2bc;padding:56px 0 30px">
+  <footer style="background:#0f2e3a;color:#9fb6bd;padding:56px 0 30px">
     <div style="max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;align-items:start">
       <div>
         <div style="display:flex;align-items:center;gap:13px;margin-bottom:18px">
-          <div style="width:44px;height:44px;border-radius:50%;background:#0d4a47;display:flex;align-items:center;justify-content:center;flex:none">
+          <div style="width:44px;height:44px;border-radius:50%;background:#143a49;display:flex;align-items:center;justify-content:center;flex:none">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3.2c-2.2-1.6-5.3-1.6-6.8.6-1.7 2.4-.9 6 .4 9.4.7 1.8 1 4 1.4 5.6.3 1.3 1.8 1.4 2.2.1.4-1.4.6-3 .8-3 .2 0 .4 1.6.8 3 .4 1.3 1.9 1.2 2.2-.1.4-1.6.7-3.8 1.4-5.6 1.3-3.4 2.1-7 .4-9.4-1.5-2.2-4.6-2.2-6.8-.6Z" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></svg>
           </div>
-          <div style="line-height:1"><div style="font-family:'Sora',sans-serif;font-size:21px;letter-spacing:.16em;color:#fff;font-weight:600">SUDANT</div><div style="font-size:9px;letter-spacing:.2em;color:#7c949c;margin-top:3px;font-weight:600">DENTAL CLINIC &amp; IMPLANT CENTER</div></div>
+          <div style="line-height:1"><div style="font-family:'Fraunces',serif;font-size:21px;letter-spacing:.16em;color:#fff;font-weight:600">SUDANT</div><div style="font-size:9px;letter-spacing:.2em;color:#7c949c;margin-top:3px;font-weight:600">DENTAL CLINIC &amp; IMPLANT CENTER</div></div>
         </div>
         <p style="font-size:14.5px;line-height:1.65;max-width:340px">Gentle, honest, family-first dentistry in Rajkot — led by Dr. Keyuri Vamja (BDS).</p>
       </div>
       <div>
         <div style="color:#fff;font-weight:800;font-size:14px;letter-spacing:.04em;margin-bottom:16px">Explore</div>
         <div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px">
-          <a href="#about" style="color:#9cc2bc;text-decoration:none">About Dr. Keyuri</a>
-          <a href="#services" style="color:#9cc2bc;text-decoration:none">Services</a>
-          <a href="#results" style="color:#9cc2bc;text-decoration:none">Smile Gallery</a>
-          <a href="#faq" style="color:#9cc2bc;text-decoration:none">FAQ</a>
+          <a href="#about" style="color:#9fb6bd;text-decoration:none">About Dr. Keyuri</a>
+          <a href="#services" style="color:#9fb6bd;text-decoration:none">Services</a>
+          <a href="#results" style="color:#9fb6bd;text-decoration:none">Smile Gallery</a>
+          <a href="#faq" style="color:#9fb6bd;text-decoration:none">FAQ</a>
         </div>
       </div>
       <div>
         <div style="color:#fff;font-weight:800;font-size:14px;letter-spacing:.04em;margin-bottom:16px">Get in touch</div>
         <div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px">
-          <a href="tel:+919724575598" style="color:#9cc2bc;text-decoration:none">+91 97245 75598</a>
+          <a href="tel:+919724575598" style="color:#9fb6bd;text-decoration:none">+91 97245 75598</a>
           <span>150 Feet Ring Road, Rajkot</span>
           <div style="display:flex;gap:10px;margin-top:6px">
             <a href="#" style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:15px">📸</a>
@@ -383,14 +380,14 @@
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#15b3a0&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#e89b73&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
 class Component extends DCLogic {
   state = { open: 0 };
   componentDidMount() { this._icons(); }
   componentDidUpdate() { this._icons(); }
   _icons() { requestAnimationFrame(() => { try { window.lucide && window.lucide.createIcons(); } catch (e) {} }); }
   renderVals() {
-    const accent = this.props.accent ?? '#15b3a0';
+    const accent = this.props.accent ?? '#e89b73';
     const faqData = [
       { q: 'Will my treatment hurt?', a: 'We focus on painless, anxiety-free dentistry. Modern numbing techniques, a gentle approach, and plenty of time to explain each step mean most patients are surprised by how comfortable their visit is.' },
       { q: 'Do you treat children?', a: 'Absolutely. We love treating little ones — from first check-ups to fillings and habit guidance — in a calm, friendly way that helps them build a lifelong, fear-free relationship with the dentist.' },
