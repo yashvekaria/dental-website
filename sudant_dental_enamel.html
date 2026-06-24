@@ -302,18 +302,6 @@
     <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,#fbf8f3,transparent)"></div>
   </header>
 
-  <!-- ===== TRUST STRIP ===== -->
-  <section style="max-width:1100px;margin:-30px auto 0;padding:0 32px;position:relative;z-index:5">
-    <div style="background:#fff;border-radius:20px;box-shadow:0 18px 44px rgba(20,58,73,.1);padding:26px 18px;display:grid;grid-template-columns:repeat(4,1fr)">
-      <sc-for list="{{ trust }}" as="t" hint-placeholder-count="4">
-        <div style="text-align:center;padding:6px 14px;border-right:1px solid #f0e9dd">
-          <div style="font-family:'Fraunces',serif;font-size:34px;font-weight:600;color:#143a49">{{ t.num }}</div>
-          <div style="font-size:13px;color:#7c8c93;font-weight:600;margin-top:3px">{{ t.label }}</div>
-        </div>
-      </sc-for>
-    </div>
-  </section>
-
   <!-- ===== ABOUT DOCTOR ===== -->
   <section id="about" style="max-width:1200px;margin:0 auto;padding:96px 32px 70px;display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center">
     <div style="position:relative">
