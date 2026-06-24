@@ -30,8 +30,12 @@
     });
   }
 
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+
   // Render a template node against a scope, returning an array of real DOM nodes.
-  function render(node, scope) {
+  // `svgNS` is true once we are inside an <svg> subtree so child elements are
+  // created in the SVG namespace (plain createElement would render them blank).
+  function render(node, scope, svgNS) {
     if (node.nodeType === Node.TEXT_NODE) {
       return [document.createTextNode(interpolate(node.textContent, scope))];
     }
@@ -51,7 +55,7 @@
         childScope[as] = item;
         childScope[as + 'Index'] = idx;
         Array.prototype.forEach.call(node.childNodes, function (ch) {
-          render(ch, childScope).forEach(function (n) { out.push(n); });
+          render(ch, childScope, svgNS).forEach(function (n) { out.push(n); });
         });
       });
       return out;
@@ -62,13 +66,15 @@
       if (!evalExpr(valExpr, scope)) return [];
       var kept = [];
       Array.prototype.forEach.call(node.childNodes, function (ch) {
-        render(ch, scope).forEach(function (n) { kept.push(n); });
+        render(ch, scope, svgNS).forEach(function (n) { kept.push(n); });
       });
       return kept;
     }
 
     // Ordinary element: rebuild it, resolving attributes and children.
-    var el = document.createElement(tag);
+    // Inside an <svg> we must use the SVG namespace or the browser won't paint it.
+    var isSvg = svgNS || tag === 'svg';
+    var el = isSvg ? document.createElementNS(SVG_NS, tag) : document.createElement(tag);
     var hoverStyle = null;
     Array.prototype.forEach.call(node.attributes, function (attr) {
       var name = attr.name;
@@ -105,7 +111,7 @@
     }
 
     Array.prototype.forEach.call(node.childNodes, function (ch) {
-      render(ch, scope).forEach(function (n) { el.appendChild(n); });
+      render(ch, scope, isSvg).forEach(function (n) { el.appendChild(n); });
     });
     return [el];
   }
